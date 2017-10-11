@@ -1,0 +1,21 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+.navbar {
+    //Added Gradient 
+    background: #070000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(left, #070000, #4C0001, #070000);
+    background: -moz-linear-gradient(left, #070000, #4C0001, #070000);
+    background: -o-linear-gradient(left, #070000, #4C0001, #070000);
+    background: linear-gradient(to right, #070000, #4C0001, #070000);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+body {
+    background: #8E0E00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(left, #1F1C18, #8E0E00);
+    background: -moz-linear-gradient(left, #1F1C18, #8E0E00);
+    background: -o-linear-gradient(left, #1F1C18, #8E0E00);
+    background: linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
