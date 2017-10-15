@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :contacts
   get '/about' => 'pages#about'
   get '/portfolio' => 'pages#portfolio'
   get '/contact' => 'pages#contact'
